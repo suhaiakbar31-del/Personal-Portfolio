@@ -337,6 +337,15 @@ nav a:hover {
   font-weight: 700;
 }
 
+.screenshot-desc {
+  margin-top: 10px;
+  margin-bottom: 0;
+  color: #a0aec0;
+  font-size: 0.95rem;
+  text-align: left;
+  width: 100%;
+}
+
 .skills-grid {
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
