@@ -298,6 +298,12 @@ nav a:hover {
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
+.screenshot-grid > .screenshot-card:last-child:nth-child(odd) {
+  grid-column: 1 / -1;
+  justify-self: center;
+  width: min(100%, 720px);
+}
+
 .screenshot-card {
   display: flex;
   flex-direction: column;
